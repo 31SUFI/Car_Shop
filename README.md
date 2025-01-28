@@ -107,7 +107,7 @@ dependencies:
 
 ## Contributing 🤝
 
-We welcome contributions to make this app even better! Here’s how you can contribute:
+I welcome contributions to make this app even better! Here’s how you can contribute:
 
 1. **Fork the repository**
 2. **Create your feature branch**
