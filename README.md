@@ -126,10 +126,4 @@ We welcome contributions to make this app even better! Here’s how you can cont
 
 ---
 
-## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you'd like any other additions or tweaks!
