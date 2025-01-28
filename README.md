@@ -2,7 +2,7 @@ Here’s the complete README file, including the Google Drive demo video link:
 
 ---
 
-# Car Marketplace App
+# Car Marketplace App 🚗
 
 A modern Flutter application for car shopping featuring a sleek UI, smooth animations, and comprehensive car details display.
 
