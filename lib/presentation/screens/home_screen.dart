@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/welcome_header.dart';
 import '../widgets/car_brands_section.dart';
 import '../widgets/popular_cars_section.dart';
+import '../widgets/custom_bottom_nav_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -36,10 +37,12 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: const PopularCarsSection(),
               ),
+              const SizedBox(height: 80),
             ],
           ),
         ),
       ),
+      bottomNavigationBar: const CustomBottomNavBar(),
     );
   }
 }
