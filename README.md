@@ -1,6 +1,4 @@
-Here’s the complete README file, including the Google Drive demo video link:
 
----
 
 # Car Marketplace App 🚗
 
