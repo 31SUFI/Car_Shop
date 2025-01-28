@@ -88,8 +88,8 @@ flutter run
 
 ## Screenshots 📸
 
-![Car Details Screen](image.png)  
-![Brand Showcase Screen](image-1.png)
+![Car Details Screen](image.png)  ![Brand Showcase Screen](image-1.png)
+
 
 ---
 
