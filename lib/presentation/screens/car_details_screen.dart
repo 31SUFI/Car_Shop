@@ -1,8 +1,10 @@
 import 'package:car_shop_app/models/car.dart';
+import 'package:car_shop_app/presentation/animations/fade_slide_animation_mixin.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+//import 'package:your_app/presentation/animations/fade_slide_animation_mixin.dart';
 
-class CarDetailsScreen extends StatelessWidget {
+class CarDetailsScreen extends StatefulWidget {
   final Car car;
 
   const CarDetailsScreen({
@@ -10,6 +12,12 @@ class CarDetailsScreen extends StatelessWidget {
     required this.car,
   });
 
+  @override
+  State<CarDetailsScreen> createState() => _CarDetailsScreenState();
+}
+
+class _CarDetailsScreenState extends State<CarDetailsScreen>
+    with TickerProviderStateMixin, FadeSlideAnimation {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -25,7 +33,7 @@ class CarDetailsScreen extends StatelessWidget {
             right: 0,
             height: size.height * 0.45,
             child: Image.asset(
-              car.image,
+              widget.car.image,
               fit: BoxFit.cover,
             ),
           ),
@@ -79,7 +87,7 @@ class CarDetailsScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          car.name,
+                          widget.car.name,
                           style: GoogleFonts.poppins(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
