@@ -11,7 +11,7 @@ mixin FadeSlideAnimation<T extends StatefulWidget>
     super.initState();
     _slideController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 800),
+      duration: const Duration(milliseconds: 1000),
     );
 
     _slideAnimation = Tween<Offset>(

@@ -7,16 +7,21 @@ class CarBrandsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 90, // Fixed height for the brand section
-      child: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
+      height: 90,
+      child: ListView.builder(
+        padding: EdgeInsets.symmetric(
+            horizontal: MediaQuery.of(context).size.width * 0.05),
         scrollDirection: Axis.horizontal,
-        children: [
-          _buildBrandItem('assets/images/download.jpg', 'Cadillac'),
-          _buildBrandItem('assets/images/download.jpg', 'Tesla'),
-          _buildBrandItem('assets/images/download.jpg', 'BMW'),
-          _buildBrandItem('assets/images/download.jpg', 'Mazda'),
-        ],
+        itemCount: 4,
+        itemBuilder: (context, index) {
+          final brands = [
+            ('assets/images/download.jpg', 'Cadillac'),
+            ('assets/images/download.jpg', 'Tesla'),
+            ('assets/images/download.jpg', 'BMW'),
+            ('assets/images/download.jpg', 'Mazda'),
+          ];
+          return _buildBrandItem(brands[index].$1, brands[index].$2);
+        },
       ),
     );
   }
@@ -44,9 +49,10 @@ class CarBrandsSection extends StatelessWidget {
           const SizedBox(height: 4),
           Text(
             name,
-            style: const TextStyle(
+            style: GoogleFonts.poppins(
               fontSize: 12,
               color: Colors.black87,
+              fontWeight: FontWeight.w500,
             ),
             textAlign: TextAlign.center,
           ),

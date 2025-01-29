@@ -60,7 +60,7 @@ class PopularCarsSection extends StatelessWidget {
                   name: 'Tesla Model X',
                   price: 23680,
                   rating: 4.8,
-                  image: 'assets/images/OIP.jpg',
+                  image: 'assets/images/R.png',
                 ),
               ),
               CarCard(
@@ -68,7 +68,7 @@ class PopularCarsSection extends StatelessWidget {
                   name: 'Tesla Model S',
                   price: 38590,
                   rating: 4.7,
-                  image: 'assets/images/car2.jpg',
+                  image: 'assets/images/R.png',
                 ),
               ),
               CarCard(
@@ -76,7 +76,7 @@ class PopularCarsSection extends StatelessWidget {
                   name: 'Mercedes GLE',
                   price: 54500,
                   rating: 4.9,
-                  image: 'assets/images/car2.jpg',
+                  image: 'assets/images/R.png',
                 ),
               ),
             ],

@@ -72,7 +72,7 @@ class _CarDetailsScreenState extends State<CarDetailsScreen>
                           isFavorite = !isFavorite;
                         });
                       },
-                      iconColor: isFavorite ? Colors.red : Colors.black,
+                      iconColor: isFavorite ? Colors.black : Colors.black,
                     ),
                   ],
                 ),

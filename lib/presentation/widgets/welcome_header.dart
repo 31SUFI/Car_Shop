@@ -32,7 +32,7 @@ class WelcomeHeader extends StatelessWidget {
                       ),
                       child: ClipOval(
                         child: Image.asset(
-                          'assets/images/car1.jpg',
+                          'assets/images/profile.png',
                           fit: BoxFit.cover,
                         ),
                       ),
