@@ -45,22 +45,18 @@ class WelcomeHeader extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              'Welcome ',
+                              'Welcome 👋',
                               style: GoogleFonts.inter(
                                 fontSize: 16,
                                 color: Colors.grey.shade700,
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
-                            const Text(
-                              '👋',
-                              style: TextStyle(fontSize: 16),
-                            ),
                           ],
                         ),
                         const SizedBox(height: 4),
                         Text(
-                          'Shahinur Rahman',
+                          'Muhammad Sufiyan',
                           style: GoogleFonts.inter(
                             fontSize: 18,
                             fontWeight: FontWeight.w700,
