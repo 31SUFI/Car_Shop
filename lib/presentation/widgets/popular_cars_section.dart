@@ -126,7 +126,7 @@ class CarCard extends StatelessWidget {
                         top: Radius.circular(16),
                       ),
                       child: Hero(
-                        tag: car.image,
+                        tag: 'car_${car.image}',
                         child: Image.asset(
                           car.image,
                           fit: BoxFit.cover,
