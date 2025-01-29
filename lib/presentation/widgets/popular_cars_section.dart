@@ -52,7 +52,7 @@ class PopularCarsSection extends StatelessWidget {
                   name: 'Tesla Model 3',
                   price: 45590,
                   rating: 4.5,
-                  image: 'assets/images/car2.jpg',
+                  image: 'assets/images/R.png',
                 ),
               ),
               CarCard(
@@ -60,7 +60,7 @@ class PopularCarsSection extends StatelessWidget {
                   name: 'Tesla Model X',
                   price: 23680,
                   rating: 4.8,
-                  image: 'assets/images/car2.jpg',
+                  image: 'assets/images/OIP.jpg',
                 ),
               ),
               CarCard(

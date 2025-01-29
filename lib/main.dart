@@ -1,4 +1,3 @@
-import 'package:car_shop_app/presentation/screens/car_details_screen.dart';
 import 'package:car_shop_app/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
